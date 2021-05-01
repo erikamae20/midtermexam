@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(AA.jpg);
+  background-size: cover;
+  background-position: center;
+   font-family: Times New Roman;     
+}
+h1{
+  font-family: fantasy;
+  color:white;
+}
+.main{
+  width:95%;
+ height:450px;
+  overflow-y: auto;
+  opacity: 85%;
+}
+table {
+  font-family: Times New Roman;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+th{
+  font-family: fantasy;
+  background-color: white;
+  border: 5px solid white;
+  padding:8px 30px;
+  color: #000;
+  font-size: 20px;
+}
+
+td{
+  border: 5px solid white;
+  text-align: left;
+  padding: 8px;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: pink;
+}
+
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+button {
+  background-color: indigo;
+  border: 1px solid white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  float:right;
+  margin-right: 10%;
+  margin-top:3%;
+  border-radius: 20px;
+  font-family: fantasy;
+  width: 200px;
+}
+button:hover{
+  background-color: #ffc107;
+}
+a{
+  color:white;
+}
+a:hover{
+  color:black;
+}
